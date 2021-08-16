@@ -35,5 +35,6 @@ fun main(args: Array<String>) {
         println("Ho number check failed :(")
         return
     }
+    
     walker.walk(scListener,entrypoint)
 }
