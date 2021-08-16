@@ -28,7 +28,7 @@ COMPARSION_NEQUAL   : 'man come not in the port of ';
 COMPARISON_EQUAL    : 'man come in the port of ';
 COMAPRISON          : VALUE (COMPARISON_BIGGER | COMPARISON_SMALLER | COMPARISON_EQUAL | COMPARSION_NEQUAL) VALUE;
 IF_START            : 'Soon may the ';
-ELSE_START          : 'One day, when the touguing is done';
+ELSE_START          : 'One day, when the tonguing is done';
 PRINT               : 'I thought I heard the Old Man say ';
 INPUT_PART_1        : 'If you wanna get to Tesco, boys, you\'ve gotta get by ';
 INPUT_PART_2        : '!' ;

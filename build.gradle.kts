@@ -30,6 +30,7 @@ tasks.withType<KotlinCompile>() {
 
 application {
     mainClass.set("MainKt")
+    applicationDefaultJvmArgs = listOf("-Djava.library.path=.")
 }
 
 tasks.named("compileKotlin") { dependsOn("generateGrammarSource")}
