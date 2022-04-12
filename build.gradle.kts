@@ -14,7 +14,7 @@ repositories {
 }
 
 dependencies {
-    antlr("org.antlr:antlr4:4.9.2")
+    antlr("org.antlr:antlr4:4.10")
     implementation("io.ktor:ktor-client-core:1.6.2")
     implementation("io.ktor:ktor-client-cio:1.6.2")
     testImplementation(kotlin("test"))
